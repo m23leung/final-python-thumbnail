@@ -11,6 +11,8 @@ authorName: 'Serverless, inc.'
 authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 -->
 
+![20220812_000657](https://user-images.githubusercontent.com/1162599/184152809-fc96b8f5-6226-442e-86ae-d0ede616d3c8.jpg)
+
 
 # Serverless Framework AWS Python Example
 
