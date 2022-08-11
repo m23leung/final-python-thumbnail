@@ -54,6 +54,11 @@ Which should result in response similar to the following:
 }
 ```
 
+### Teardown
+
+1. Remove all image files from S3 bucket
+2. Run command "sls remove"
+
 ### Local development
 
 You can invoke your function locally by using the following command:
