@@ -11,8 +11,9 @@ authorName: 'Serverless, inc.'
 authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 -->
 
-**Description: **
-This AWS architecture is setup such that when we upload a new image (.png file) onto S3, the lambda function will automatically execute to generate a thumbnail version of the image onto the same S3 bucket. Afterwards, it will store the image details onto DynamoDB, where the image details can be queries through the AWS API Gateway.
+### Description
+
+This AWS architecture is setup such that when we upload a new image (.png file) onto S3, the lambda function will automatically execute to generate a thumbnail version of the image onto the same S3 bucket. Afterwards, it will store the image details onto DynamoDB, where the image details can be queries through the AWS API Gateway (list/get/delete methods).
 
 ![20220812_000657](https://user-images.githubusercontent.com/1162599/184152809-fc96b8f5-6226-442e-86ae-d0ede616d3c8.jpg)
 
