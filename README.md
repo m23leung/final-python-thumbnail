@@ -15,9 +15,11 @@ authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 
 This AWS architecture is setup such that when we upload a new image (.png file) onto S3, the lambda function will automatically execute to generate a thumbnail version of the image onto the same S3 bucket. Afterwards, it will store the image details onto DynamoDB, where the image details can be queries through the AWS API Gateway (list/get/delete methods).
 
+### Architecture Diagram
+
 ![20220812_000657](https://user-images.githubusercontent.com/1162599/184152809-fc96b8f5-6226-442e-86ae-d0ede616d3c8.jpg)
 
-
+### Ignore the below
 # Serverless Framework AWS Python Example
 
 This template demonstrates how to deploy a Python function running on AWS Lambda using the traditional Serverless Framework. The deployed function does not include any event definitions as well as any kind of persistence (database). For more advanced configurations check out the [examples repo](https://github.com/serverless/examples/) which includes integrations with SQS, DynamoDB or examples of functions that are triggered in `cron`-like manner. For details about configuration of specific `events`, please refer to our [documentation](https://www.serverless.com/framework/docs/providers/aws/events/).
